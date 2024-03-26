@@ -1,0 +1,22 @@
+Greetings.
+
+
+1. right click REAL.exe 
+     > create shortcut
+     > right click the shortcut u´ve created
+     > properties
+     > add --tray to Path   should look sth. like this: C:\Users\Username\PathToExe\REAL.exe --tray
+
+2. press (win)+r
+     > type shell:startup
+     > hit Enter
+
+3. copy the shortcut of REAL.exe u´ve created to the startup folder
+     > restart pc.
+
+
+
+explanation:
+                      we create a shortcut to the REAL.exe with the --tray argument wich is going to start the program hidden.
+                      we put the shortcut into the windows startup folder so it gets executed automaticly at each startup.
+                      then we use dpclat.exe to verify that the latency was optimized.
